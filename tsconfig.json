@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* Type Checking */
+    "noUnusedLocals": true,
+    "strict": true,
+
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "types": ["vite/client"],
+
+    /* Emit */
+    "noEmit": true,
+
+    /* JavaScript Support */
+    "allowJs": true,
+
+    /* Interop Constraints */
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+
+    /* Language and Environment */
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "target": "ES2020",
+
+    /* Completeness */
+    "skipLibCheck": true,
+  },
+  "include": ["./src/**/*"]
+}
