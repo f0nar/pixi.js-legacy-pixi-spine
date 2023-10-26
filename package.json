@@ -11,13 +11,13 @@
     "preview": "vite preview",
     "test": "tsc"
   },
-  "dependencies": {
-    "pixi-spine": "4.0.4",
-    "pixi.js-legacy": "7.3.0"
-  },
   "devDependencies": {
     "typescript": "^5.2.2",
     "vite": "^4.4.9"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "pixi-spine": "^4.0.4",
+    "pixi.js-legacy": "^7.3.2"
+  }
 }
